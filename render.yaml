@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mercado-cripto-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python bot.py"
